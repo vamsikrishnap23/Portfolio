@@ -1,0 +1,294 @@
+:root {
+  --color-primary: #151515;
+  --color-secondary: #373737;
+  --color-tertiary: #242424;
+  --color-other: #454545;
+  --color-font: #ffffff;
+
+  --ig-gradient: linear-gradient(to top right, #c13584, #f77737);
+}
+
+@font-face {
+  font-family: "Rubik-Regular";
+  src: url(img/Rubik-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-family: "Rubik-Regular";
+  font-size: 62.5%;
+  text-transform: uppercase;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: var(--color-primary);
+  color: var(--color-font);
+  margin: 2rem;
+}
+.nav-bar {
+  height: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-bottom: 1px solid var(--color-secondary);
+}
+.logo {
+  height: 100%;
+}
+.name {
+  font-size: 2.5rem;
+}
+.prof {
+  font-size: 1.6rem;
+}
+
+.homepage {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+
+.intro {
+  font-size: 5rem;
+  font-weight: 600;
+  color: var(--color-secondary);
+}
+.highlight {
+  color: var(--color-font);
+}
+
+.intro-desc {
+  max-width: 60vw;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+.nav-links {
+  list-style-type: none;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: var(--color-other);
+  font-weight: 400;
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  justify-content: space-between;
+  /* height: 60vh; */
+  /* margin-top: 10vh; */
+}
+.nav-links li a {
+  text-decoration: none;
+  color: var(--color-other);
+}
+
+.nav-links li a:hover {
+  color: var(--color-font);
+}
+.nav-links li a:active {
+  color: var(--color-secondaryr-);
+}
+
+.sec {
+  border-bottom: 1px solid var(--color-secondary);
+  height: 100vh;
+}
+
+.social-links {
+  display: flex;
+  margin-top: 5rem;
+}
+
+.icon {
+  height: 3rem;
+  width: 3rem;
+  margin: 0 2rem;
+}
+
+a {
+  cursor: pointer;
+}
+
+.social-links a {
+  fill: var(--color-secondary);
+}
+
+.gh:hover {
+  fill: #6e5494;
+}
+.tw:hover {
+  fill: #1da1f2;
+}
+.gm:hover {
+  fill: #d44638;
+}
+
+.sec-title {
+  font-size: 5rem;
+  font-weight: 400;
+}
+
+.sec1 {
+  height: 150vh;
+}
+
+.sec-title--desc {
+  font-size: 2rem;
+  margin-top: 2rem;
+  color: var(--color-other);
+}
+.sec2 {
+  height: 130vh;
+}
+.institutes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  margin: 3rem 3rem;
+}
+
+.institutes_institute {
+  margin-top: 5rem;
+}
+
+.institute_img {
+  width: 100%;
+  border-radius: 1rem;
+  /* filter: blur(5px); */
+}
+.college-icon {
+  cursor: pointer;
+  fill: var(--color-secondary);
+}
+
+.edu {
+  font-size: 3rem;
+}
+.edu-info {
+  font-size: 2rem;
+  color: var(--color-secondary);
+}
+.narayana {
+  height: 35rem;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  margin: 3rem 3rem;
+}
+
+#sec3 {
+  height: 340vh;
+}
+
+.project-name {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.project-info {
+  margin: 10rem 0;
+}
+
+.project-img {
+  margin: 5rem 0;
+  width: 100%;
+  border-radius: 1rem;
+  /* filter: blur(5px); */
+}
+
+.sec4 {
+  height: 25vh;
+}
+
+.social-links--final a {
+  fill: var(--color-secondary);
+}
+.social-links--final {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 30rem;
+}
+
+.wa:hover {
+  fill: #25d366;
+}
+
+.ig:hover {
+  fill: #c13584;
+}
+
+.fb:hover {
+  fill: #4267b2;
+}
+
+.pc:hover {
+  fill: #006aff;
+}
+
+.lnkin:hover {
+  fill: #0a66c2;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  font-size: 1.2rem;
+}
+
+.typing-effect {
+  width: 100%;
+}
+
+.auto-type {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+
+.skills {
+  margin: 3rem;
+  margin-top: 5rem
+}
+
+.key-skills {
+  font-size: 4rem;
+}
+
+.key {
+  font-size: 2rem;
+}
+.value {
+  color: var(--color-other);
+}
+
+.skills p {
+  margin-top: 2rem;
+}
+
+.sec-title--desc {
+  margin: 3rem;
+}
+
+.sec {
+  padding-top: 2rem;
+}
+
+.sec-title-mid {
+  text-alignment: ;
+}
+
+.project-desc{
+  font-size: 1.4rem;
+  margin-top: 1.3rem;
+}
